@@ -1,0 +1,133 @@
+.user-emergency-page {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(210deg, #ffb900, #ff8e01, #990526);
+    color: #fff;
+}
+
+.user-emergency-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-emergency-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emergency-select {
+    width: 243px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.emergency-textarea p {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.emergency-radio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emergency-radio div {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.user-emergency-button {
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 2px 20px;
+    border: none;
+    background-color: #990526;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom: 0px;
+}
+
+.user-emergency-button:hover {
+    background-color: #ffb900;
+}
+
+.emergencyNeedContainer{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+    padding: 20px 30px;
+}
+
+.emergency-select {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    width: 243px;
+    padding: 0.375rem;
+    padding-right: 10px;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.emergencyIcon{
+    width: 110px;
+    padding: 10px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .emergencyIcon{
+        width: 70px;
+        padding: 10px;
+    }
+} */
+
+.responseActive{
+    background-color: transparent;
+    border: none;
+    outline: #ffb900 3px solid;
+}
+
+.responseInactive{
+    background-color: transparent;
+    border: none;
+}
+
+.emergencyFormTitle{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.emergency-textarea textarea {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    width: 243px;
+    padding: 0.375rem;
+    padding-right: 10px;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}

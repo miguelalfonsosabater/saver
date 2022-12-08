@@ -1,0 +1,58 @@
+.contacts-container{
+    background-image: linear-gradient(210deg, #ffb900, #ff8e01, #990526);
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    color: white;
+}
+.contacts-table{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+
+.contacts-table td{
+    padding-inline: .2em;
+}
+
+.province-title{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.mun-title{
+    font-size: smaller;
+    text-align: center;
+    font-weight: bold;
+}
+.province-link a{
+    color: white;
+    text-decoration: none;
+    padding: 0em;
+    font-size: 14px;
+}
+
+.province-link{
+    padding-bottom: 1em ;
+}
+
+.reference{
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 699px) {
+    .contacts-table td{
+        padding-inline: 1em;
+        font-size: 14px;
+    }
+
+    .contacts-container{
+        padding: 10px;
+    }
+}
+

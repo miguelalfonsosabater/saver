@@ -1,0 +1,38 @@
+.loginSectionContainer{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(210deg, #ffb900, #ff8e01, #990526);
+}
+
+.loginLottieContainer{
+    width: 150px;
+}
+
+.login-title{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.LoginMessage{
+    text-align: center;
+    color: #fff;
+}
+
+.LoginBtn{
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 2px 20px;
+    border: none;
+    background-color: #990526;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    padding: 5px 0px;
+}
